@@ -31,7 +31,12 @@
             "EA\\Engine\\": "engine/"
         }
     },
+     "config": {
+
+        "platform-check": false
+    },
     "require": {
+        "php": ">=7.3",
         "ext-curl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
